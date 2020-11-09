@@ -12,10 +12,10 @@ Widget remedioCard(BuildContext context, int index, Remedio remedio) {
           padding: EdgeInsets.only(right: 12),
           decoration: BoxDecoration(
             border: Border(
-                right: BorderSide(width: 1.0, color: Colors.redAccent)
+                right: BorderSide(width: 1.0, color: Theme.of(context).primaryColor)
             ),
           ),
-          child: Icon(Icons.healing, color: Colors.redAccent,),
+          child: Icon(Icons.healing, color: Theme.of(context).primaryColor,),
         ),
         title: Text(
           remedio.nome,

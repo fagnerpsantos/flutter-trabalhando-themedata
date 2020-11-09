@@ -70,6 +70,7 @@ class Main extends StatelessWidget {
               fontWeight: FontWeight.w600,
               color: Colors.blue
           ),
+          button: TextStyle(color: Colors.white, fontSize: 16)
         )
       ),
       debugShowCheckedModeBanner: false,
